@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    font-family: "Monsterrat", sans-serif;
+    background-color: rgb(255, 198, 171);
+    font-family: 'SophosSansLight', sans-serif;
+}
+.parent{
+    width: 21%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 80px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.hd{
+    text-align: center;
+    font-size: 16px;
+    /* font-weight: 550; */
+    color: #336699;
+    font-family: 'SophosSansLight', sans-serif;
+}
+.form{
+    text-align: center;
+    /* width: 100px; */
+    padding:20px;
+    box-sizing: border-box;
+}
+input:focus{
+    border: 1px solid blue;
+    border-color: dodgerblue;
+    /* box-shadow: 0 0 4px 0 dodgerblue; */
+}
+#btn{
+    font-size: 0.8em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 265px;
+     background: rgb(58, 176, 58);
+    color: white;
+    border-radius:5px;
+    border: none;
+}
+#btn:hover{
+    text-align: center;
+    background-color: rgb(66, 195, 66);
+}
+.link{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    gap: 17px;
+    /* padding-left: 20px; */
+    align-items: center;
+    font:bolder;
+    font-size:12px;
+    text-align: center;
+    text-size-adjust:2px;
+    text-decoration: none;
+    color: black;
+    width:280px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+a{
+    font-size: 12.5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+input{
+    margin: auto;
+    padding:7px;
+    width: 240px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid;
+    border-color: rgb(208, 198, 186);
+    margin-bottom: 10px;
+}
+.inpbox{
+    /* display: flex; */
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px;
+
+}
+
+::placeholder{
+    color: rgb(186, 191, 196);
+}
+
+.login{
+    margin: auto;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: bold;
+    width: 255px;
+}
+.checkimg{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    width: 50px;
+    margin-bottom: 90px;
+}
